@@ -1,0 +1,14 @@
+package Scanner
+
+
+
+teamlist = new LinkedList();
+
+
+Scanner reader = new Scanner(System.in); 
+System.out.println("Which week would you like to see? /n number: ");
+int a = reader.nextInt();
+
+System.out.println(teamlist.get(a));
+
+
